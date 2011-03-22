@@ -24,6 +24,9 @@
 		02E950311338C46700A0144F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E9502F1338C46700A0144F /* InfoPlist.strings */; };
 		02E950341338C46700A0144F /* ArchipelTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 02E950331338C46700A0144F /* ArchipelTests.h */; };
 		02E950361338C46700A0144F /* ArchipelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E950351338C46700A0144F /* ArchipelTests.m */; };
+		02E950401338C4CA00A0144F /* logo-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E9503F1338C4CA00A0144F /* logo-114.png */; };
+		02E950421338C4CE00A0144F /* logo-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E950411338C4CE00A0144F /* logo-57.png */; };
+		02E950441338C4E900A0144F /* logo-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E950431338C4E900A0144F /* logo-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +44,28 @@
 		02E950001338C46700A0144F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02E950021338C46700A0144F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02E950041338C46700A0144F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		02E950081338C46700A0144F /* Archipel-Info.plist */ = {isa = PBXFileReference; path = "Archipel-Info.plist"; sourceTree = "<group>"; };
+		02E950081338C46700A0144F /* Archipel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Archipel-Info.plist"; sourceTree = "<group>"; };
 		02E9500A1338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		02E9500C1338C46700A0144F /* Archipel-Prefix.pch */ = {isa = PBXFileReference; path = "Archipel-Prefix.pch"; sourceTree = "<group>"; };
+		02E9500C1338C46700A0144F /* Archipel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Archipel-Prefix.pch"; sourceTree = "<group>"; };
 		02E9500D1338C46700A0144F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		02E9500F1338C46700A0144F /* ArchipelAppDelegate.h */ = {isa = PBXFileReference; path = ArchipelAppDelegate.h; sourceTree = "<group>"; };
+		02E9500F1338C46700A0144F /* ArchipelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchipelAppDelegate.h; sourceTree = "<group>"; };
 		02E950101338C46700A0144F /* ArchipelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchipelAppDelegate.m; sourceTree = "<group>"; };
 		02E950131338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		02E950151338C46700A0144F /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		02E950151338C46700A0144F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		02E950161338C46700A0144F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		02E950181338C46700A0144F /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		02E950181338C46700A0144F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		02E950191338C46700A0144F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		02E9501C1338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		02E9501F1338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		02E950261338C46700A0144F /* ArchipelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchipelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02E9502E1338C46700A0144F /* ArchipelTests-Info.plist */ = {isa = PBXFileReference; path = "ArchipelTests-Info.plist"; sourceTree = "<group>"; };
+		02E9502E1338C46700A0144F /* ArchipelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArchipelTests-Info.plist"; sourceTree = "<group>"; };
 		02E950301338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		02E950321338C46700A0144F /* ArchipelTests-Prefix.pch */ = {isa = PBXFileReference; path = "ArchipelTests-Prefix.pch"; sourceTree = "<group>"; };
+		02E950321338C46700A0144F /* ArchipelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArchipelTests-Prefix.pch"; sourceTree = "<group>"; };
 		02E950331338C46700A0144F /* ArchipelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchipelTests.h; sourceTree = "<group>"; };
 		02E950351338C46700A0144F /* ArchipelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchipelTests.m; sourceTree = "<group>"; };
+		02E9503F1338C4CA00A0144F /* logo-114.png */ = {isa = PBXFileReference; lastKnownFileType = file; path = "logo-114.png"; sourceTree = "<group>"; };
+		02E950411338C4CE00A0144F /* logo-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-57.png"; sourceTree = "<group>"; };
+		02E950431338C4E900A0144F /* logo-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 		02E94FF11338C46700A0144F = {
 			isa = PBXGroup;
 			children = (
+				02E950431338C4E900A0144F /* logo-72.png */,
+				02E950411338C4CE00A0144F /* logo-57.png */,
+				02E9503F1338C4CA00A0144F /* logo-114.png */,
 				02E950061338C46700A0144F /* Archipel */,
 				02E9502C1338C46700A0144F /* ArchipelTests */,
 				02E94FFF1338C46700A0144F /* Frameworks */,
@@ -234,6 +243,9 @@
 				02E950141338C46700A0144F /* MainWindow.xib in Resources */,
 				02E9501D1338C46700A0144F /* FirstView.xib in Resources */,
 				02E950201338C46700A0144F /* SecondView.xib in Resources */,
+				02E950401338C4CA00A0144F /* logo-114.png in Resources */,
+				02E950421338C4CE00A0144F /* logo-57.png in Resources */,
+				02E950441338C4E900A0144F /* logo-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +394,7 @@
 				GCC_PREFIX_HEADER = "Archipel/Archipel-Prefix.pch";
 				INFOPLIST_FILE = "Archipel/Archipel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,6 +408,7 @@
 				GCC_PREFIX_HEADER = "Archipel/Archipel-Prefix.pch";
 				INFOPLIST_FILE = "Archipel/Archipel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
