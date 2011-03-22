@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E950011338C46700A0144F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E950001338C46700A0144F /* UIKit.framework */; };
+		02E950031338C46700A0144F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E950021338C46700A0144F /* Foundation.framework */; };
+		02E950051338C46700A0144F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E950041338C46700A0144F /* CoreGraphics.framework */; };
+		02E9500B1338C46700A0144F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E950091338C46700A0144F /* InfoPlist.strings */; };
+		02E9500E1338C46700A0144F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E9500D1338C46700A0144F /* main.m */; };
+		02E950111338C46700A0144F /* ArchipelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E950101338C46700A0144F /* ArchipelAppDelegate.m */; };
+		02E950141338C46700A0144F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E950121338C46700A0144F /* MainWindow.xib */; };
+		02E950171338C46700A0144F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E950161338C46700A0144F /* FirstViewController.m */; };
+		02E9501A1338C46700A0144F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E950191338C46700A0144F /* SecondViewController.m */; };
+		02E9501D1338C46700A0144F /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E9501B1338C46700A0144F /* FirstView.xib */; };
+		02E950201338C46700A0144F /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E9501E1338C46700A0144F /* SecondView.xib */; };
+		02E950271338C46700A0144F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E950001338C46700A0144F /* UIKit.framework */; };
+		02E950281338C46700A0144F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E950021338C46700A0144F /* Foundation.framework */; };
+		02E950291338C46700A0144F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E950041338C46700A0144F /* CoreGraphics.framework */; };
+		02E950311338C46700A0144F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E9502F1338C46700A0144F /* InfoPlist.strings */; };
+		02E950341338C46700A0144F /* ArchipelTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 02E950331338C46700A0144F /* ArchipelTests.h */; };
+		02E950361338C46700A0144F /* ArchipelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E950351338C46700A0144F /* ArchipelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02E9502A1338C46700A0144F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E94FF31338C46700A0144F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E94FFB1338C46700A0144F;
+			remoteInfo = Archipel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E94FFC1338C46700A0144F /* Archipel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archipel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E950001338C46700A0144F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02E950021338C46700A0144F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02E950041338C46700A0144F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02E950081338C46700A0144F /* Archipel-Info.plist */ = {isa = PBXFileReference; path = "Archipel-Info.plist"; sourceTree = "<group>"; };
+		02E9500A1338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02E9500C1338C46700A0144F /* Archipel-Prefix.pch */ = {isa = PBXFileReference; path = "Archipel-Prefix.pch"; sourceTree = "<group>"; };
+		02E9500D1338C46700A0144F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02E9500F1338C46700A0144F /* ArchipelAppDelegate.h */ = {isa = PBXFileReference; path = ArchipelAppDelegate.h; sourceTree = "<group>"; };
+		02E950101338C46700A0144F /* ArchipelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchipelAppDelegate.m; sourceTree = "<group>"; };
+		02E950131338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		02E950151338C46700A0144F /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		02E950161338C46700A0144F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		02E950181338C46700A0144F /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		02E950191338C46700A0144F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		02E9501C1338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		02E9501F1338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		02E950261338C46700A0144F /* ArchipelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchipelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E9502E1338C46700A0144F /* ArchipelTests-Info.plist */ = {isa = PBXFileReference; path = "ArchipelTests-Info.plist"; sourceTree = "<group>"; };
+		02E950301338C46700A0144F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02E950321338C46700A0144F /* ArchipelTests-Prefix.pch */ = {isa = PBXFileReference; path = "ArchipelTests-Prefix.pch"; sourceTree = "<group>"; };
+		02E950331338C46700A0144F /* ArchipelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchipelTests.h; sourceTree = "<group>"; };
+		02E950351338C46700A0144F /* ArchipelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchipelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E94FF91338C46700A0144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E950011338C46700A0144F /* UIKit.framework in Frameworks */,
+				02E950031338C46700A0144F /* Foundation.framework in Frameworks */,
+				02E950051338C46700A0144F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E950221338C46700A0144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E950271338C46700A0144F /* UIKit.framework in Frameworks */,
+				02E950281338C46700A0144F /* Foundation.framework in Frameworks */,
+				02E950291338C46700A0144F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E94FF11338C46700A0144F = {
+			isa = PBXGroup;
+			children = (
+				02E950061338C46700A0144F /* Archipel */,
+				02E9502C1338C46700A0144F /* ArchipelTests */,
+				02E94FFF1338C46700A0144F /* Frameworks */,
+				02E94FFD1338C46700A0144F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E94FFD1338C46700A0144F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E94FFC1338C46700A0144F /* Archipel.app */,
+				02E950261338C46700A0144F /* ArchipelTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E94FFF1338C46700A0144F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E950001338C46700A0144F /* UIKit.framework */,
+				02E950021338C46700A0144F /* Foundation.framework */,
+				02E950041338C46700A0144F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02E950061338C46700A0144F /* Archipel */ = {
+			isa = PBXGroup;
+			children = (
+				02E9500F1338C46700A0144F /* ArchipelAppDelegate.h */,
+				02E950101338C46700A0144F /* ArchipelAppDelegate.m */,
+				02E950121338C46700A0144F /* MainWindow.xib */,
+				02E950151338C46700A0144F /* FirstViewController.h */,
+				02E950161338C46700A0144F /* FirstViewController.m */,
+				02E950181338C46700A0144F /* SecondViewController.h */,
+				02E950191338C46700A0144F /* SecondViewController.m */,
+				02E9501B1338C46700A0144F /* FirstView.xib */,
+				02E9501E1338C46700A0144F /* SecondView.xib */,
+				02E950071338C46700A0144F /* Supporting Files */,
+			);
+			path = Archipel;
+			sourceTree = "<group>";
+		};
+		02E950071338C46700A0144F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E950081338C46700A0144F /* Archipel-Info.plist */,
+				02E950091338C46700A0144F /* InfoPlist.strings */,
+				02E9500C1338C46700A0144F /* Archipel-Prefix.pch */,
+				02E9500D1338C46700A0144F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02E9502C1338C46700A0144F /* ArchipelTests */ = {
+			isa = PBXGroup;
+			children = (
+				02E950331338C46700A0144F /* ArchipelTests.h */,
+				02E950351338C46700A0144F /* ArchipelTests.m */,
+				02E9502D1338C46700A0144F /* Supporting Files */,
+			);
+			path = ArchipelTests;
+			sourceTree = "<group>";
+		};
+		02E9502D1338C46700A0144F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E9502E1338C46700A0144F /* ArchipelTests-Info.plist */,
+				02E9502F1338C46700A0144F /* InfoPlist.strings */,
+				02E950321338C46700A0144F /* ArchipelTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E94FFB1338C46700A0144F /* Archipel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E950391338C46700A0144F /* Build configuration list for PBXNativeTarget "Archipel" */;
+			buildPhases = (
+				02E94FF81338C46700A0144F /* Sources */,
+				02E94FF91338C46700A0144F /* Frameworks */,
+				02E94FFA1338C46700A0144F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Archipel;
+			productName = Archipel;
+			productReference = 02E94FFC1338C46700A0144F /* Archipel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02E950251338C46700A0144F /* ArchipelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E9503C1338C46700A0144F /* Build configuration list for PBXNativeTarget "ArchipelTests" */;
+			buildPhases = (
+				02E950211338C46700A0144F /* Sources */,
+				02E950221338C46700A0144F /* Frameworks */,
+				02E950231338C46700A0144F /* Resources */,
+				02E950241338C46700A0144F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E9502B1338C46700A0144F /* PBXTargetDependency */,
+			);
+			name = ArchipelTests;
+			productName = ArchipelTests;
+			productReference = 02E950261338C46700A0144F /* ArchipelTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E94FF31338C46700A0144F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 02E94FF61338C46700A0144F /* Build configuration list for PBXProject "Archipel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02E94FF11338C46700A0144F;
+			productRefGroup = 02E94FFD1338C46700A0144F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E94FFB1338C46700A0144F /* Archipel */,
+				02E950251338C46700A0144F /* ArchipelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E94FFA1338C46700A0144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E9500B1338C46700A0144F /* InfoPlist.strings in Resources */,
+				02E950141338C46700A0144F /* MainWindow.xib in Resources */,
+				02E9501D1338C46700A0144F /* FirstView.xib in Resources */,
+				02E950201338C46700A0144F /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E950231338C46700A0144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E950311338C46700A0144F /* InfoPlist.strings in Resources */,
+				02E950341338C46700A0144F /* ArchipelTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E950241338C46700A0144F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E94FF81338C46700A0144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E9500E1338C46700A0144F /* main.m in Sources */,
+				02E950111338C46700A0144F /* ArchipelAppDelegate.m in Sources */,
+				02E950171338C46700A0144F /* FirstViewController.m in Sources */,
+				02E9501A1338C46700A0144F /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E950211338C46700A0144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E950361338C46700A0144F /* ArchipelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E9502B1338C46700A0144F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E94FFB1338C46700A0144F /* Archipel */;
+			targetProxy = 02E9502A1338C46700A0144F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02E950091338C46700A0144F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E9500A1338C46700A0144F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02E950121338C46700A0144F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E950131338C46700A0144F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		02E9501B1338C46700A0144F /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E9501C1338C46700A0144F /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		02E9501E1338C46700A0144F /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E9501F1338C46700A0144F /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		02E9502F1338C46700A0144F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E950301338C46700A0144F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02E950371338C46700A0144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		02E950381338C46700A0144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		02E9503A1338C46700A0144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archipel/Archipel-Prefix.pch";
+				INFOPLIST_FILE = "Archipel/Archipel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02E9503B1338C46700A0144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archipel/Archipel-Prefix.pch";
+				INFOPLIST_FILE = "Archipel/Archipel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02E9503D1338C46700A0144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Archipel.app/Archipel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchipelTests/ArchipelTests-Prefix.pch";
+				INFOPLIST_FILE = "ArchipelTests/ArchipelTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		02E9503E1338C46700A0144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Archipel.app/Archipel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchipelTests/ArchipelTests-Prefix.pch";
+				INFOPLIST_FILE = "ArchipelTests/ArchipelTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E94FF61338C46700A0144F /* Build configuration list for PBXProject "Archipel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E950371338C46700A0144F /* Debug */,
+				02E950381338C46700A0144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E950391338C46700A0144F /* Build configuration list for PBXNativeTarget "Archipel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E9503A1338C46700A0144F /* Debug */,
+				02E9503B1338C46700A0144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02E9503C1338C46700A0144F /* Build configuration list for PBXNativeTarget "ArchipelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E9503D1338C46700A0144F /* Debug */,
+				02E9503E1338C46700A0144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E94FF31338C46700A0144F /* Project object */;
+}
